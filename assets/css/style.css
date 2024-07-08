@@ -1,0 +1,92 @@
+/* stylo */
+:root{
+    --color1: #e0e0e0;
+    --color2: #8F9779;
+    --color3: #3b3c3d;
+    --color4: #2E8B57;
+    --color5: #474F1E;
+}
+
+body {
+    background-color: var(--color2);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.h1{
+    margin-top: 0;
+    
+}
+span {
+    color: rgb(77, 80, 78);
+}
+
+p{
+    font-size: 13px;
+}
+
+.todo-container {
+    background-color: var(--color1);
+    border: 1px solid var(--color3);
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+input [type="text"]{
+    width: calc(100% - 110px);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button  {
+    padding: 10px;
+    background-color: var(--color4);
+    color: var(--color1);
+    border: 1px;
+    border-radius: 7px;
+}
+
+td {
+    padding-left: 1rem;
+    font-size: 15px;
+    
+}
+
+.buttonEliminar {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+.container-doble{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.detalles{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+.resumen{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: baseline;
+    border: 1px solid var(--color2);
+    border-radius: 7px;
+    padding: 2px;
+    
+    
+}
